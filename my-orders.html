@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/generated.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="wownew">
+    <!-- Здесь пишем код-->
+    <div class="cabinet-wrapper">
+      <div class="region region-content">
+        <div class="cabinet-breadcrumbs">
+          <nav class="breadcrumbs"><a href="#">Главная</a>»<a href="#">Личный кабинет</a>»<span>Мои заказы</span></nav>
+        </div>
+        <div class="hot-action">Спецпредложение</div>
+        <div class="cabinet-content">
+          <div class="cabinet-content__left">
+            <div class="cabinet-header">
+              <h1 class="page-title cabinet-title">Мои заказы</h1>
+              <div class="cabinet-button cabinet-button--red"><span>добавить заказ</span></div>
+            </div>
+            <div class="cabinet-content__body">
+              <div class="my-orders">
+                <div class="my-orders__top">
+                  <div class="my-orders__left"><span>Показать заказы:</span>
+                    <label>
+                      <input type="checkbox"><span>Активные</span>
+                    </label>
+                    <label>
+                      <input type="checkbox"><span>Закрытые</span>
+                    </label>
+                  </div>
+                  <div class="my-orders__right">
+                    <div class="my-orders__col-select cab-input">Показать столбцы
+                      <ul class="my-orders__dropdown">
+                        <li>
+                          <input type="checkbox"><span>№ заказа</span>
+                        </li>
+                        <li>
+                          <input type="checkbox"><span>Дата</span>
+                        </li>
+                        <li>
+                          <input type="checkbox"><span>Услуги</span>
+                        </li>
+                        <li>
+                          <input type="checkbox"><span>Оплата</span>
+                        </li>
+                        <li>
+                          <input type="checkbox"><span>Статус</span>
+                        </li>
+                        <li>
+                          <input type="checkbox"><span>Описание</span>
+                        </li>
+                        <li>
+                          <input type="checkbox"><span>Действия</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="my-orders__filter">
+                  <input type="text" placeholder="Поиск по слову, номеру заказа" class="cab-input word-search">
+                  <label class="my-orders__date">
+                    <input type="text" placeholder="Дата заказа" class="cab-input date-search"><span class="ico ico-clnd"></span>
+                  </label>
+                  <div class="my-orders__col-select cab-input">Все услуги
+                    <ul class="my-orders__dropdown">
+                      <li>
+                        <input type="checkbox"><span>Услуга 1</span>
+                      </li>
+                      <li>
+                        <input type="checkbox"><span>Услуга 2</span>
+                      </li>
+                      <li>
+                        <input type="checkbox"><span>Услуга 3</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="my-orders__col-select cab-input">Все Статусы
+                    <ul class="my-orders__dropdown">
+                      <li>
+                        <input type="checkbox"><span>Статус 1</span>
+                      </li>
+                      <li>
+                        <input type="checkbox"><span>Статус 2</span>
+                      </li>
+                      <li>
+                        <input type="checkbox"><span>Статус 3</span>
+                      </li>
+                    </ul>
+                  </div><a class="clear-filter">Очистить фильтр</a>
+                </div>
+                <div class="cabinet-table-wrap">
+                  <table class="cabinet-table cabinet-table--orders">
+                    <thead>
+                      <tr>
+                        <th class="order-num"> <span>№ заказа</span>
+                          <div class="ico-sort return"></div>
+                        </th>
+                        <th class="order-data"><span>Дата</span>
+                          <div class="ico-sort"></div>
+                        </th>
+                        <th>Услуги</th>
+                        <th>Оплата</th>
+                        <th><span>Статус</span>
+                          <div class="ico-sort"></div>
+                        </th>
+                        <th>Описание</th>
+                        <th>Действия</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><a href="#">12345</a></td>
+                        <td>
+                          <div class="cabinet-table__date">01.03.18</div>
+                          <div class="cabinet-table__time">08:30</div>
+                        </td>
+                        <td>
+                          <div class="cabinet-table__option">
+                            <div class="cabinet-table__icon icon-m">м</div>
+                            <div class="option-val">макет</div>
+                          </div>
+                          <div class="cabinet-table__option">
+                            <div class="cabinet-table__icon icon-p">п</div>
+                            <div class="option-val">печать</div>
+                          </div>
+                          <div class="cabinet-table__option">
+                            <div class="cabinet-table__icon icon-d">д</div>
+                            <div class="option-val">доставка</div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="pay">
+                            <div class="residue-val">Аванс 1500р.</div>
+                            <div class="residue-date">от 10.12.17,</div>
+                            <div class="residue-summ">5000 </div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="status-line">
+                            <div class="status-line__sector status-line__sector--green active">
+                              <div class="status-triangle"></div>
+                            </div>
+                            <div class="status-line__sector status-line__sector--blue">
+                              <div class="status-triangle"></div>
+                            </div>
+                            <div class="status-line__sector status-line__sector--red">
+                              <div class="status-triangle"></div>
+                            </div>
+                          </div>
+                          <div class="status-text">Отправлен в препресс</div>
+                        </td>
+                        <td>Ожидает оплаты</td>
+                        <td>
+                          <div class="ico ico-re"></div>
+                          <div class="ico ico-money"></div>
+                          <div class="ico ico-edit-big"></div>
+                          <div class="ico ico-clock"></div>
+                          <div class="ico ico-print"></div>
+                          <div class="ico ico-excel"></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><a href="#">12345</a></td>
+                        <td>
+                          <div class="cabinet-table__date">01.03.18</div>
+                          <div class="cabinet-table__time">08:30</div>
+                        </td>
+                        <td>
+                          <div class="cabinet-table__option">
+                            <div class="cabinet-table__icon icon-m">м</div>
+                            <div class="option-val">макет</div>
+                          </div>
+                          <div class="cabinet-table__option">
+                            <div class="cabinet-table__icon icon-p">п</div>
+                            <div class="option-val">печать</div>
+                          </div>
+                          <div class="cabinet-table__option">
+                            <div class="cabinet-table__icon icon-d">д</div>
+                            <div class="option-val">доставка</div>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="residue-val">Аванс 1500р.</div>
+                          <div class="residue-date">от 10.12.17,</div>
+                          <div class="residue-summ">5000 </div>
+                        </td>
+                        <td>
+                          <div class="status-line">
+                            <div class="status-line__sector status-line__sector--green">
+                              <div class="status-triangle"></div>
+                            </div>
+                            <div class="status-line__sector status-line__sector--blue active">
+                              <div class="status-triangle"></div>
+                            </div>
+                            <div class="status-line__sector status-line__sector--red">
+                              <div class="status-triangle"></div>
+                            </div>
+                          </div>
+                          <div class="status-text">Отправлен в препресс</div>
+                        </td>
+                        <td>Ожидает оплаты</td>
+                        <td>
+                          <div class="cabinet-button cabinet-button--red"><span>заказать</span></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="cabinet__show-more">
+                <div class="cabinet-button cabinet-button--blue"><span>показать еще</span></div>
+              </div>
+            </div>
+          </div>
+          <aside class="cabinet-sidebar">
+            <div class="cabinet-manager">
+              <div class="cabinet-manager__toggle cabinet-button cabinet-button--blue"><span>Ваш персональный менеджер</span></div>
+              <div class="cabinet-manager__body">
+                <div class="cabinet-manager__header">
+                  <div class="cabinet-manager__avatar"><img src="img/manager.jpg" alt="alt"></div>
+                  <div class="cabinet-manager__info">
+                    <div class="cabinet-manager__name">Petr Petrov</div>
+                    <div class="cabinet-manager__skype">
+                      <div class="ico ico-skype"></div><span>petrov</span>
+                    </div>
+                    <div class="cabinet-manager__phone">
+                      <div class="ico ico-phone"></div><span>+7 985 123-45-67</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="cabinet-manager__submit cabinet-button cabinet-button--red"><span>Написать</span></div>
+              </div>
+            </div>
+            <div class="cabinet__my-orders cabinet-sidebar__block">
+              <h3>Мои заказы</h3>
+              <ul>
+                <li><a href="">Персональные скидки</a></li>
+                <li><a href="">Сообщения</a></li>
+                <li><a href="">Настройки</a></li>
+                <li><a href="">Доступы для сотрудников</a></li>
+                <li><a href="">Выход</a></li>
+              </ul>
+            </div>
+            <div class="cabinet__submenu cabinet-sidebar__block">
+              <ul>
+                <li><img src="img/icons/razreshenie-pechati.png" alt="alt"><a href="">Разрешение печати</a></li>
+                <li><img src="img/icons/tehnicheskie-trebovaniya.png" alt="alt"><a href="">Технические требования</a><img src="img/icons/ikonka-dlya-formata.png" alt="alt"></li>
+                <li><img src="img/icons/sroki-isp-ya.png" alt="alt"><a href="">Сроки исполнения (1-2 дня)</a></li>
+                <li><img src="img/icons/garantii.png" alt="alt"><a href="">Гарантии</a><img src="img/icons/ikonka-dlya-formata.png" alt="alt"></li>
+                <li><img src="img/icons/kak-oformit-zakaz.png" alt="alt" class="as-order-img"><a href="">Как оформить заказ</a><img src="img/icons/vneshnyaya-ssylka.png" alt="alt"></li>
+              </ul>
+              <p>Есть вопросы? Позвоните нам:</p>
+              <div class="cabinet-sidebar__phone">+7 (495) 281-53-58</div>
+            </div>
+            <div class="cabinet__offer cabinet-sidebar__block"><span>спецпредложение</span></div>
+          </aside>
+        </div>
+        <div class="cabinet-subscribe">
+          <h2 class="cabinet-subscribe__title">Будьте в курсе самых выгодных предложений</h2>
+          <div class="cabinet-subscribe__body">
+            <p>Подпишитесь на рассылку и вы не пропустите ни одной важной новости</p>
+            <form class="cabinet-subscribe__form">
+              <div>
+                <input type="text" placeholder="Введите ваш e-mail" class="cab-input"><a type="submit" class="cabinet-button cabinet-button--red"><span>оставить заявку</span></a>
+              </div>
+              <label>
+                <input type="checkbox"><span>Я принимаю <a href="#">условия обработки персональных данных</a></span>
+              </label>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
